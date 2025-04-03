@@ -15,15 +15,15 @@ const cardVariants = {
     opacity: 1.1,
     y: 0,
     transition: {
-      duration: 0.8,
-      delay: index * 0.18,
+      duration: 0.65,
+      delay: index * 0.15,
       ease: 'easeOut',
     },
   }),
   loop: {
     scale: [1, 1.03, 1],
     transition: {
-      duration: 1.9,
+      duration: 1.7,
       repeat: Infinity,
       ease: 'easeInOut',
     },
@@ -48,7 +48,7 @@ const marqueeVariants = {
       x: {
         repeat: Infinity,
         repeatType: 'loop',
-        duration: 16,
+        duration: 15,
         ease: 'linear',
       },
     },
